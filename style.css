@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+
+header {
+    background: rgb(251, 251, 221);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.168);
+}
+
+.container {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header .container .links {
+    display: flex;
+    gap: 20px;
+    color: orange;
+    font-size: 18px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+.welcome .container {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    background: url(https://img.freepik.com/free-photo/acoustic-guitar-close-up-beautiful-colored-background_169016-3530.jpg?t=st=1734924927~exp=1734928527~hmac=1716b90fe9e5a94bf3a86713cd8c5af003c0a2ae46a06ba5232b6c943a2067a4);
+    background-size: cover;
+    margin-top: 60px;
+    color: white;
+    height: 640px;
+    border-radius: 24px;
+    box-shadow: -8px 8px 20px rgba(0, 0, 0, 0.495);
+}
+
+.welcome h2 {
+    font-size: 60px;
+    line-height: 55px;
+    letter-spacing: 0.5px;
+}
+
+.welcome p {
+    font-size: 24px;
+    color: rgb(231, 226, 223);
+    letter-spacing: 2px;
+}
+
+.welcome button {
+    margin-top: 16px;
+    width: fit-content;
+    background-color: rgb(247, 166, 16);
+    color: white;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding: 16px 32px;
+    border-radius: 16px;
+    box-shadow: 0 2px 20px rgba(255, 255, 255, 0.5);
+    transition: .3s;
+}
+header a{
+    transition: .3s;
+}
+header a:hover {
+    color: rgb(255, 123, 0);
+    transition: .4s;
+}
+.welcome button:hover {
+    color: rgb(255, 123, 0);
+    background-color: white;
+    transition: .4s;
+    cursor: pointer;
+    box-shadow: 0 2px 20px rgba(251, 155, 11, 0.5);
+}
+.category .container{
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+}
+.category .container .cat{
+    width: 100%;
+}
+.category img{
+    width: 100%;
+}
